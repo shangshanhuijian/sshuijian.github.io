@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sshuijian.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-12-12T12:26:30.438Z</updated>
+    <updated>2021-12-12T12:33:32.153Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sshuijian.github.io/"/>
     <link rel="self" href="https://sshuijian.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://sshuijian.github.io/images/avatar.png</logo>
     <icon>https://sshuijian.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[20211212首次致谢]]></title>
+        <id>https://sshuijian.github.io/post/20211212-shou-ci-zhi-xie/</id>
+        <link href="https://sshuijian.github.io/post/20211212-shou-ci-zhi-xie/">
+        </link>
+        <updated>2021-12-12T12:26:39.000Z</updated>
+        <content type="html"><![CDATA[<p>20201225 2020年12月，对亚克力和模糊效果的图标颇为感兴趣，于是忙中偷闲，参考了很多教程，终于制作出了这个图标的预览版 图标包模板感谢@hujincan项目地址 https://github.com/shangshanhuijian/AndIconpack ai、ps、xd、as这些教程来源于@bilibili</p>
+<p>以下是说明文档： 1、安装即可使用，主要是学习as、ai同时满足我对亚克力效果的喜爱，所以适配可能并不会特别快，见谅 2、关于原创说明：该图标模板@hujican，图标设计以及绘制均由我自己完成，保留所有权 3、关于项目二改说明：允许在征得我同意下进行非商业使用，(联系方式2512218111@qq.com)，同时小米商店图标版本我会自行制作，其他主题可和我洽谈（大概是没多少人喜欢吧） 4、请尽情想用吧</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://sshuijian.github.io/post/hello-gridea/</id>
