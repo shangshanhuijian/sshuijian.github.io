@@ -2,14 +2,156 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sshuijian.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-12-12T12:33:32.153Z</updated>
+    <updated>2022-01-01T12:02:38.846Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sshuijian.github.io/"/>
     <link rel="self" href="https://sshuijian.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://sshuijian.github.io/images/avatar.png</logo>
     <icon>https://sshuijian.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
+    <rights>All rights reserved 2022, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[类原生网址备份]]></title>
+        <id>https://sshuijian.github.io/post/lei-yuan-sheng-wang-zhi-bei-fen/</id>
+        <link href="https://sshuijian.github.io/post/lei-yuan-sheng-wang-zhi-bei-fen/">
+        </link>
+        <updated>2022-01-01T12:01:50.000Z</updated>
+        <summary type="html"><![CDATA[<p>https://felixchn.top/<br>
+类原生集合： https://www.lanzoux.com/b00ntr8jc<br>
+目前收集了60个类原生（真就换个皮又是一个新的rom[表面开心])，由于大部分courseforge上的类原生采用的都是机型代号，你可以下载一个 http://www.coolapk.com/apk/flar2.devcheck 查看系统那一栏下产品/设备后的就是代号，也可以看@KHwang9883 老哥的github https://github.com/KHwang9883/MobileModels<br>
+opengapps https://opengapps.org/<br>
+bitgapps https://bitgapps.github.io/<br>
+miflash集合 https://www.lanzoux.com/b00ndmiif （2013-2020全部版本）<br>
+9008免授权文件 https://www.lanzoux.com/b00norbkb （不知道能不能用，自测）<br>
+小米9资¶源分享 https://www.lanzoux.com/b00ntr8jc<br>
+或者也可以在动态搜索小米9[流汗滑稽]<br>
+第三方rec（包括twrp，橙狐，shrp, pbrp, 翼龙等）<br>
+https://www.lanzoux.com/b00ntr8jc<br>
+小米机型底包下载 https://xiaomifirmwareupdater.com/firmware/<br>
+小米线刷包卡刷包下载 https://miuiver.com/ 和 https://roms.miuier.com/<br>
+全机型代号 https://github.com/KHwang9883/MobileModels<br>
+anx相机（类原生miui相机）在动态搜anx，官网 https://camera.aeonax.com/<br>
+谷歌相机<br>
+在动态搜索 parrot043或Urnyx05<br>
+阿狗酱的版本 https://www.coolapk.com/feed/18343166?shareKey=ZDg3MGMyMThmZjBhNWYzMzYyYzg~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
+小米9推荐版本 https://www.coolapk.com/feed/19897117?shareKey=OGUxNGVlY2FmMDdjNWYzMzYyZjc~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
+之前写过的图文<br>
+解锁，magisk，rec等等<br>
+https://www.coolapk.com/feed/19753752?shareKey=YzIwN2NmYjQ1ZGNhNWYzMzYzMjg~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
+和<br>
+https://www.coolapk.com/feed/17697847?shareKey=NmNkZjE5YjRhMzlmNWYzMzYzMjg~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
+类原生刷入和日用软件 https://www.coolapk.com/feed/18563280?shareKey=OWFlOTgxMDlhY2QxNWYzMzY0ZDg~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
+oppo a57/a57t玩机图文 https://www.coolapk.com/feed/17934483?shareKey=N2QwYjAwZGMxY2VlNWYzMzYzNTE~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1 （补充一处错误，需要刷aboot文件[捂脸]）<br>
+安卓，windows软件推荐<br>
+https://www.coolapk.com/feed/17831684?shareKey=ZGZjMzY0Y2Q3NGM2NWYzMzYzYWU~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1 和 https://www.coolapk.com/feed/19591549?shareKey=NTk5MDliNDM4NWUxNWYzMzYzYWU~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
+橙狐使用教程 https://www.coolapk.com/feed/19982456?shareKey=MjkwMmQ0NTJjM2I5NWYzMzYzZjA~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
+twrp集合（建议看上面的txt文档）<br>
+https://www.coolapk.com/feed/18596896?shareKey=ZmJkZDAzMDAwMTliNWYzMzY0NzM~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
+太极阴使用教程 https://www.coolapk.com/feed/17953780?shareKey=YmFjZDMyOGE4YzFkNWYzMzY0OGU~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
+刷入edxp后如何过safetynet（现在还有没有效不清楚） https://www.coolapk.com/feed/18368064?shareKey=OTE3YTE0NTUxNWMzNWYzMzY0OGU~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>https://felixchn.top/<br>
+类原生集合： https://www.lanzoux.com/b00ntr8jc<br>
+目前收集了60个类原生（真就换个皮又是一个新的rom[表面开心])，由于大部分courseforge上的类原生采用的都是机型代号，你可以下载一个 http://www.coolapk.com/apk/flar2.devcheck 查看系统那一栏下产品/设备后的就是代号，也可以看@KHwang9883 老哥的github https://github.com/KHwang9883/MobileModels<br>
+opengapps https://opengapps.org/<br>
+bitgapps https://bitgapps.github.io/<br>
+miflash集合 https://www.lanzoux.com/b00ndmiif （2013-2020全部版本）<br>
+9008免授权文件 https://www.lanzoux.com/b00norbkb （不知道能不能用，自测）<br>
+小米9资¶源分享 https://www.lanzoux.com/b00ntr8jc<br>
+或者也可以在动态搜索小米9[流汗滑稽]<br>
+第三方rec（包括twrp，橙狐，shrp, pbrp, 翼龙等）<br>
+https://www.lanzoux.com/b00ntr8jc<br>
+小米机型底包下载 https://xiaomifirmwareupdater.com/firmware/<br>
+小米线刷包卡刷包下载 https://miuiver.com/ 和 https://roms.miuier.com/<br>
+全机型代号 https://github.com/KHwang9883/MobileModels<br>
+anx相机（类原生miui相机）在动态搜anx，官网 https://camera.aeonax.com/<br>
+谷歌相机<br>
+在动态搜索 parrot043或Urnyx05<br>
+阿狗酱的版本 https://www.coolapk.com/feed/18343166?shareKey=ZDg3MGMyMThmZjBhNWYzMzYyYzg~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
+小米9推荐版本 https://www.coolapk.com/feed/19897117?shareKey=OGUxNGVlY2FmMDdjNWYzMzYyZjc~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
+之前写过的图文<br>
+解锁，magisk，rec等等<br>
+https://www.coolapk.com/feed/19753752?shareKey=YzIwN2NmYjQ1ZGNhNWYzMzYzMjg~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
+和<br>
+https://www.coolapk.com/feed/17697847?shareKey=NmNkZjE5YjRhMzlmNWYzMzYzMjg~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
+类原生刷入和日用软件 https://www.coolapk.com/feed/18563280?shareKey=OWFlOTgxMDlhY2QxNWYzMzY0ZDg~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
+oppo a57/a57t玩机图文 https://www.coolapk.com/feed/17934483?shareKey=N2QwYjAwZGMxY2VlNWYzMzYzNTE~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1 （补充一处错误，需要刷aboot文件[捂脸]）<br>
+安卓，windows软件推荐<br>
+https://www.coolapk.com/feed/17831684?shareKey=ZGZjMzY0Y2Q3NGM2NWYzMzYzYWU~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1 和 https://www.coolapk.com/feed/19591549?shareKey=NTk5MDliNDM4NWUxNWYzMzYzYWU~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
+橙狐使用教程 https://www.coolapk.com/feed/19982456?shareKey=MjkwMmQ0NTJjM2I5NWYzMzYzZjA~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
+twrp集合（建议看上面的txt文档）<br>
+https://www.coolapk.com/feed/18596896?shareKey=ZmJkZDAzMDAwMTliNWYzMzY0NzM~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
+太极阴使用教程 https://www.coolapk.com/feed/17953780?shareKey=YmFjZDMyOGE4YzFkNWYzMzY0OGU~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
+刷入edxp后如何过safetynet（现在还有没有效不清楚） https://www.coolapk.com/feed/18368064?shareKey=OTE3YTE0NTUxNWMzNWYzMzY0OGU~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1</p>
+<!-- more -->
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Markdown简明语法示例]]></title>
+        <id>https://sshuijian.github.io/post/markdown-jian-ming-yu-fa-shi-li/</id>
+        <link href="https://sshuijian.github.io/post/markdown-jian-ming-yu-fa-shi-li/">
+        </link>
+        <updated>2022-01-01T11:59:47.000Z</updated>
+        <content type="html"><![CDATA[<p>//标题一共有6个级别，书写方式如下：</p>
+<h1 id="一级标题">一级标题</h1>
+<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<h4 id="四级标题">四级标题</h4>
+<h5 id="五级标题">五级标题</h5>
+<h6 id="六级标题">六级标题</h6>
+<hr>
+<p>//粗体<br>
+<strong>你好呀，绘见小朋友</strong></p>
+<p>//斜体<br>
+<em>绘见小朋友</em></p>
+<p>//删除线<br>
+<s>绘见小朋友的废弃内容</s></p>
+<hr>
+<p>//引用书写语法如下：</p>
+<blockquote>
+<p>此教程来自绘见出品，版权所有，违版必究</p>
+<blockquote>
+<p>此教程来自绘见出品，版权所有，违版必究</p>
+<blockquote>
+<p>此教程来自绘见出品，版权所有，违版必究</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>此教程来自绘见出品，版权所有，违版必究</p>
+</blockquote>
+<hr>
+<p>//分隔线（长度：根据内容而定）</p>
+<h2 id="哈哈哈哈哈哈哈哈哈哈">哈哈哈哈哈哈哈哈哈哈</h2>
+<p>//分割线（占全屏就是三个*号）</p>
+<hr>
+<p>//超链接<br>
+[点击跳转到我的GitHub](https://github.com/sshuijian</p>
+<hr>
+<p>//有序列表：序号+点+空格，生成列表</p>
+<ol>
+<li>首页</li>
+<li>分类</li>
+<li>标题<br>
+//无需列表：- + 空格</li>
+</ol>
+<ul>
+<li></li>
+</ul>
+<hr>
+<p>//鼠标右键--&gt;插入--&gt;表格</p>
+<hr>
+<p>//代码块，需要用```结束</p>
+<pre><code class="language-java">package com.yrp.po;
+
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+</code></pre>
+<p>哈哈哈结束啦</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[20211212首次致谢]]></title>
         <id>https://sshuijian.github.io/post/20211212-shou-ci-zhi-xie/</id>
