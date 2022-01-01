@@ -2,17 +2,22 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Root下备份Persist分区以及efs分区 | Gridea</title>
+<title>miui去除广告 | Gridea</title>
 <link rel="shortcut icon" href="https://sshuijian.github.io//favicon.ico?v=1641040051296">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://sshuijian.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Root下备份Persist分区以及efs分区 | Gridea - Atom Feed" href="https://sshuijian.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="miui去除广告 | Gridea - Atom Feed" href="https://sshuijian.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="切记，刷机之前先备份这两个分区
-很久之前，我曾写过这篇文章，详细的介绍了安卓手机里Persist分区以及efs分区，同样，指纹传感器数据也包括在此分区，现如今TWRP适配工作在W大退隐以后，基本无后人继承，导致上文中方法已经无效，特别是一加..." />
+    <meta name="description" content="miui去除广告
+首先是首次开机引导界面
+下载-右上角-设置-信息流设置-资源推荐
+日历-右上角-设置-用户体验计划-内容推广
+联系人-小米营业厅-关于营业厅-系统推荐
+浏览器-菜单-设置-高级设置-个性化推荐
+米家-设置-消息设置-商城消..." />
     <meta name="keywords" content="红米k30p玩机手册" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -91,14 +96,14 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              Root下备份Persist分区以及efs分区
+              miui去除广告
             </h2>
             <div class="post-info">
               <span>
                 2022-01-01
               </span>
               <span>
-                2 min read
+                1 min read
               </span>
               
                 <a href="https://sshuijian.github.io/tag/9M1789wDq/" class="post-tag">
@@ -109,24 +114,27 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>切记，刷机之前先备份这两个分区<br>
-很久之前，我曾写过这篇文章，详细的介绍了安卓手机里Persist分区以及efs分区，同样，指纹传感器数据也包括在此分区，现如今TWRP适配工作在W大退隐以后，基本无后人继承，导致上文中方法已经无效，特别是一加8/一加8Pro早期机器因为传感器硬件混用，线刷几率丢掉指纹，这得备份下了，注意: 仅仅9008线刷有几率丢，刷MIUI是不会丢的，又因升级安卓11，无TWRP可用，无法按照上文方法备份<br>
-本文详细引导在仅ROOT的情况下完成备份Persist，目前来说，efs分区已经没有必要备份了，不描述ROOT的方法，如果你不ROOT，也没有备份的必要，主要针对一加8/一加8Pro，目前来说，其他机型还没有指纹丢失的案例</p>
-<p>如果你熟悉adb shell，那么你只需要</p>
-<p>su<br>
-dd if=/dev/block/bootdevice/by-name/persist of=/sdcard/persist.img<br>
-#在你的根目录可以找到persist.img</p>
-<p>恢复的话</p>
-<p>su<br>
-dd if=/sdcard/persist.img of=/dev/block/bootdevice/by-name/persist<br>
-#在你的根目录里准备已经备份的persist.img</p>
-<p>https://wwi.lanzous.com/iAUsGn3aw3g</p>
-<p>如果你不熟悉，下载这个小工具（群友分享)<br>
-确保手机与电脑正常链接(可执行adb shell)，建议小白下载个手机助手类软件先连上<br>
-双击提取Persist，按照提示，再按一下回车<br>
-如图显示32M字样为成功，批处理有不确定因素，比如没连接好<br>
-备份文件Persist将会出现在你的根目录，压缩并保存它</p>
-<p>图片</p>
+                <p>miui去除广告<br>
+首先是首次开机引导界面<br>
+下载-右上角-设置-信息流设置-资源推荐<br>
+日历-右上角-设置-用户体验计划-内容推广<br>
+联系人-小米营业厅-关于营业厅-系统推荐<br>
+浏览器-菜单-设置-高级设置-个性化推荐<br>
+米家-设置-消息设置-商城消息<br>
+天星金融-我的-右上角设置-个性化服务关闭<br>
+　　　　　　　　相同位置-功能设置自行选择关闭<br>
+手机管家-右上角设置-推荐内容<br>
+　　　　　　同位置垃圾清理-推荐内容<br>
+天气-右上角设置-用户体验计划<br>
+小米社区-我的-高级设置-信息流广告<br>
+小米视频-我的-设置-消息推送<br>
+小米音乐-个性化推荐<br>
+应用商店-我的-右上角设置-推荐<br>
+设置-搜索广告-逐个关闭广告<br>
+找个apk进安装界面-右上角设置-关闭广告<br>
+如果会adb的可以把com.miui.analytics冻结了<br>
+还可以magisk刷AD去广告模块<br>
+还有的评论区补充吧。</p>
 
               </div>
               <div class="toc-container">
@@ -139,9 +147,9 @@ dd if=/sdcard/persist.img of=/dev/block/bootdevice/by-name/persist<br>
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://sshuijian.github.io/post/xiao-mi-quan-ji-xing-gu-jian-he-gong-ju-xia-zai-di-zhi/">
+            <a href="https://sshuijian.github.io/post/xiao-mi-ji-xing-dai-hao/">
               <h3 class="post-title">
-                小米全机型固件和工具下载地址
+                小米机型代号
               </h3>
             </a>
           </div>

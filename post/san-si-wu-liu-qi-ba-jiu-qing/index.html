@@ -2,17 +2,18 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Root下备份Persist分区以及efs分区 | Gridea</title>
+<title>三四五六七八九清 | Gridea</title>
 <link rel="shortcut icon" href="https://sshuijian.github.io//favicon.ico?v=1641040051296">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://sshuijian.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Root下备份Persist分区以及efs分区 | Gridea - Atom Feed" href="https://sshuijian.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="三四五六七八九清 | Gridea - Atom Feed" href="https://sshuijian.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="切记，刷机之前先备份这两个分区
-很久之前，我曾写过这篇文章，详细的介绍了安卓手机里Persist分区以及efs分区，同样，指纹传感器数据也包括在此分区，现如今TWRP适配工作在W大退隐以后，基本无后人继承，导致上文中方法已经无效，特别是一加..." />
+    <meta name="description" content="关于刷机前要几清的问题
+先说结论：刷机从来都只有双清 其他三四五六七八九清的全是歪门邪道
+先说说双清这个说法的由来 早期接触过Android刷机的用户 应该都记得原厂的英文Recovery里有一个“Wipe data &amp;; cach..." />
     <meta name="keywords" content="红米k30p玩机手册" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -91,14 +92,14 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              Root下备份Persist分区以及efs分区
+              三四五六七八九清
             </h2>
             <div class="post-info">
               <span>
                 2022-01-01
               </span>
               <span>
-                2 min read
+                4 min read
               </span>
               
                 <a href="https://sshuijian.github.io/tag/9M1789wDq/" class="post-tag">
@@ -109,24 +110,20 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>切记，刷机之前先备份这两个分区<br>
-很久之前，我曾写过这篇文章，详细的介绍了安卓手机里Persist分区以及efs分区，同样，指纹传感器数据也包括在此分区，现如今TWRP适配工作在W大退隐以后，基本无后人继承，导致上文中方法已经无效，特别是一加8/一加8Pro早期机器因为传感器硬件混用，线刷几率丢掉指纹，这得备份下了，注意: 仅仅9008线刷有几率丢，刷MIUI是不会丢的，又因升级安卓11，无TWRP可用，无法按照上文方法备份<br>
-本文详细引导在仅ROOT的情况下完成备份Persist，目前来说，efs分区已经没有必要备份了，不描述ROOT的方法，如果你不ROOT，也没有备份的必要，主要针对一加8/一加8Pro，目前来说，其他机型还没有指纹丢失的案例</p>
-<p>如果你熟悉adb shell，那么你只需要</p>
-<p>su<br>
-dd if=/dev/block/bootdevice/by-name/persist of=/sdcard/persist.img<br>
-#在你的根目录可以找到persist.img</p>
-<p>恢复的话</p>
-<p>su<br>
-dd if=/sdcard/persist.img of=/dev/block/bootdevice/by-name/persist<br>
-#在你的根目录里准备已经备份的persist.img</p>
-<p>https://wwi.lanzous.com/iAUsGn3aw3g</p>
-<p>如果你不熟悉，下载这个小工具（群友分享)<br>
-确保手机与电脑正常链接(可执行adb shell)，建议小白下载个手机助手类软件先连上<br>
-双击提取Persist，按照提示，再按一下回车<br>
-如图显示32M字样为成功，批处理有不确定因素，比如没连接好<br>
-备份文件Persist将会出现在你的根目录，压缩并保存它</p>
-<p>图片</p>
+                <p>关于刷机前要几清的问题<br>
+先说结论：刷机从来都只有双清 其他三四五六七八九清的全是歪门邪道<br>
+先说说双清这个说法的由来 早期接触过Android刷机的用户 应该都记得原厂的英文Recovery里有一个“Wipe data &amp;; cache”的选项 也就是清除data分区和cache分区 因为要清两个分区 所以大家都叫它双清了<br>
+为什么要清这两个分区呢？你在设置中选择“恢复出厂设置”后 设备会自动重启到Recovery模式下执行双清操作 久而久之大家也就养成了“刷机前需要双清”的习惯 双清要清的data分区为数据分区 清除所有用户数据 但不含设备的内部存储（早年的Android设备的内部存储是与data分区独立的 分区容量固定带来了诸多不便 现在是内部存储包含在了data分区 在双清时会跳过清除用户存储目录 除非你刻意去格式化data分区）cache分区为缓存分区 不必多说<br>
+为什么三四五六七八九清是歪门邪道？因为每个人对三四五六七八九清要清哪些分区都有不同的见解 也没有统一的概念 我会简单介绍一下那些你可能会去清的分区：<br>
+system分区：系统分区 大部分情况下不需要去清 因为刷Rom时该分区会完全重写 格式化是多此一举的 什么情况下刷机前要清system分区呢？举个例子 你刷了OpenGapps Gapps被安装到了system分区 然后有一天你卡刷升级了你的Rom 如果你没有提前清system分区的话 你会发现刷完之后Gapps还在（但是Rom确实是升级了）这个要拜backuptool脚本所赐（感兴趣的话可以看一下/system/addon.b目录） 所以我的建议是：如果你要换其他Rom的话 根据实际情况来决定刷机前要不要清system分区 其他情况下不必考虑清system分区<br>
+vendor分区：厂商私有文件分区 与system分区是配套的 情况与system分区类似 不同之处在于vendor分区几乎不会受backuptool脚本的干扰 所以还是建议根据实际情况来决定要不要清（我个人是习惯在清system的时候顺手把vendor分区也清掉）<br>
+data分区：如果你决定要清（格式化）data分区的话 你将丢失你内部存储中的所有文件（照片 音乐 小电影等等）这也就是为什么你在TWRP里格式化data分区时要求你输入yes的原因 那么内部存储是否有必要清呢？完全没必要 内部存储内的文件绝对不会影响新系统的正常运行 如果你执意要清 记得把重要文件做好备份 谨记数据无价 小心驶得万年船<br>
+dalvik-cache分区：确切来说这不算是个分区 它是一个位于data分区下的目录 存放的是虚拟机缓存 一般来说双清时顺便就清掉了 所以没必要再清一遍<br>
+最后是结论：<br>
+同Rom版本升级的话 可以什么也不清直接刷 除非开发者特别说明需要“clean flash”（如果什么也不清让你感觉心里次闹的话 就清一下dalvik-cache和cache分区吧）<br>
+如果要换Rom 刷机前双清即可（即TWRP的“清除”菜单 滑一下 完事）<br>
+如果你想要再干净一些 把system分区和vendor分区也清了也没什么问题<br>
+除非你不想要你手机里的照片 音乐 小电影等个人文件了 否则绝对不要格式化data分区</p>
 
               </div>
               <div class="toc-container">
@@ -139,9 +136,9 @@ dd if=/sdcard/persist.img of=/dev/block/bootdevice/by-name/persist<br>
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://sshuijian.github.io/post/xiao-mi-quan-ji-xing-gu-jian-he-gong-ju-xia-zai-di-zhi/">
+            <a href="https://sshuijian.github.io/post/wo-de-lei-yuan-sheng-ti-yan-bao-gao/">
               <h3 class="post-title">
-                小米全机型固件和工具下载地址
+                我的类原生体验报告
               </h3>
             </a>
           </div>
