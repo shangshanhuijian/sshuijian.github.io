@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sshuijian.github.io/</id>
     <title>Gridea</title>
-    <updated>2022-01-01T12:16:45.687Z</updated>
+    <updated>2022-01-01T12:21:24.544Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sshuijian.github.io/"/>
     <link rel="self" href="https://sshuijian.github.io/atom.xml"/>
@@ -10,6 +10,110 @@
     <logo>https://sshuijian.github.io/images/avatar.png</logo>
     <icon>https://sshuijian.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[Root下备份Persist分区以及efs分区]]></title>
+        <id>https://sshuijian.github.io/post/root-xia-bei-fen-persist-fen-qu-yi-ji-efs-fen-qu/</id>
+        <link href="https://sshuijian.github.io/post/root-xia-bei-fen-persist-fen-qu-yi-ji-efs-fen-qu/">
+        </link>
+        <updated>2022-01-01T12:20:53.000Z</updated>
+        <content type="html"><![CDATA[<p>切记，刷机之前先备份这两个分区<br>
+很久之前，我曾写过这篇文章，详细的介绍了安卓手机里Persist分区以及efs分区，同样，指纹传感器数据也包括在此分区，现如今TWRP适配工作在W大退隐以后，基本无后人继承，导致上文中方法已经无效，特别是一加8/一加8Pro早期机器因为传感器硬件混用，线刷几率丢掉指纹，这得备份下了，注意: 仅仅9008线刷有几率丢，刷MIUI是不会丢的，又因升级安卓11，无TWRP可用，无法按照上文方法备份<br>
+本文详细引导在仅ROOT的情况下完成备份Persist，目前来说，efs分区已经没有必要备份了，不描述ROOT的方法，如果你不ROOT，也没有备份的必要，主要针对一加8/一加8Pro，目前来说，其他机型还没有指纹丢失的案例</p>
+<p>如果你熟悉adb shell，那么你只需要</p>
+<p>su<br>
+dd if=/dev/block/bootdevice/by-name/persist of=/sdcard/persist.img<br>
+#在你的根目录可以找到persist.img</p>
+<p>恢复的话</p>
+<p>su<br>
+dd if=/sdcard/persist.img of=/dev/block/bootdevice/by-name/persist<br>
+#在你的根目录里准备已经备份的persist.img</p>
+<p>https://wwi.lanzous.com/iAUsGn3aw3g</p>
+<p>如果你不熟悉，下载这个小工具（群友分享)<br>
+确保手机与电脑正常链接(可执行adb shell)，建议小白下载个手机助手类软件先连上<br>
+双击提取Persist，按照提示，再按一下回车<br>
+如图显示32M字样为成功，批处理有不确定因素，比如没连接好<br>
+备份文件Persist将会出现在你的根目录，压缩并保存它</p>
+<p>图片</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小米全机型固件和工具下载地址]]></title>
+        <id>https://sshuijian.github.io/post/xiao-mi-quan-ji-xing-gu-jian-he-gong-ju-xia-zai-di-zhi/</id>
+        <link href="https://sshuijian.github.io/post/xiao-mi-quan-ji-xing-gu-jian-he-gong-ju-xia-zai-di-zhi/">
+        </link>
+        <updated>2022-01-01T12:20:08.000Z</updated>
+        <content type="html"><![CDATA[<p>https://github.com/mooseIre/update_miui_ota</p>
+<p>谷歌服务休眠<br>
+https://github.com/gloeyisk/UniversalGMSDoze</p>
+<p>#小米全机型固件和工具下载地址#<br>
+MIUI官方固件下载：<br>
+http://t.cn/AinXzVwH<br>
+小米全机型历史包下载：<br>
+http://t.cn/A65wDTQY<br>
+Redmi全机型历史包下载：<br>
+http://t.cn/A65wDTQQ<br>
+小米手机全系列最新官方线刷包下载：<br>
+http://t.cn/RzhMROP<br>
+小米手机助手下载：<br>
+http://t.cn/R2L8Nsz<br>
+小米手机最新（包括历史包）开发版/稳定版内测固件下载：<br>
+http://t.cn/A65wDTQT<br>
+MIUI+ 互联下载：<br>
+http://t.cn/A6qY5MXh<br>
+Xiaomi Firmware Updater 小米系列机型固件底包下载：http://t.cn/A65wDTQ8<br>
+MIUI EU版下载地址：<br>
+http://t.cn/RQoM0Fx</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开机动画制作教程]]></title>
+        <id>https://sshuijian.github.io/post/kai-ji-dong-hua-zhi-zuo-jiao-cheng/</id>
+        <link href="https://sshuijian.github.io/post/kai-ji-dong-hua-zhi-zuo-jiao-cheng/">
+        </link>
+        <updated>2022-01-01T12:19:15.000Z</updated>
+        <summary type="html"><![CDATA[<p>看了网上的开机动画制作教程，大多都是参差不齐，含糊不清，那么本文就来给大家从头到尾详细讲解安卓开机动画。</p>
+<h3 id=""></h3>
+<p>desc.txt中代码如下：<br>
+1080 1920 20<br>
+p 1 0 intro #ffffff<br>
+p 0 0 loop #ffffff<br>
+c 1 40 outro #ffffff</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>看了网上的开机动画制作教程，大多都是参差不齐，含糊不清，那么本文就来给大家从头到尾详细讲解安卓开机动画。</p>
+<h3 id=""></h3>
+<p>desc.txt中代码如下：<br>
+1080 1920 20<br>
+p 1 0 intro #ffffff<br>
+p 0 0 loop #ffffff<br>
+c 1 40 outro #ffffff</p>
+<!-- more -->
+<p>补充一点desc.txt最后一行必须回车，至于回几个车你开心就好。。。<br>
+第一行：1080 1920 20<br>
+第一个与第二个参数1080(宽)、1920(高)即分辨率，看了很多教程都把这个分辨率说成是动画图片的分辨率，其实并不然，只要这个分辨率和你手机分辨率对上了不管动画图片分辨率是多少它都会自适应填充。第三个20(帧率即播放速度)，每秒播放20张图片。<br>
+第二行：p 1 0 intro #ffffff<br>
+第一个参数p(part)，即播放部分，就是开机好了动画还没播放完的话就终止播放，第二个参数1(播放次数，0则无限循环)，即播放一次，第三个参数0(延迟)，即播放完后延迟0s播放下部分，第四个参数intro(路径)，即这部分动画图片在压缩包中的路径(bootanimation.zip/intro)，第五个参数#ffffff(背景颜色)，即动画图片的背景颜色，将desc.txt中的分辨率写成小于手机分辨率这时动画图片就不会填满屏幕，多余的部分就会是第五个参数设置的颜色(第三行同上)<br>
+第四行：c 1 40 outro #fffff<br>
+第一个参数c(continue)，即完整播放，也就是说开机好了动画还没播放完的话则继续播放，如果你将第二个参数写成0，并不会一直无限播放下去，系统会默认为p 0也就是循环播放到开机结束，后面的参数同上。<br>
+处理gif什么的这里就不说了用gif助手酷安就有，压缩普通的压缩会导致黑屏可以用MT管理器以储存模式压缩，好了本文就到此结束了。<br>
+附上自制的小黄鸭开机动画： https://www.lanzous.com/i31odja?t<br>
+#开机动画# #Magisk开机动画#</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小米手机玩机注意事项]]></title>
+        <id>https://sshuijian.github.io/post/xiao-mi-shou-ji-wan-ji-zhu-yi-shi-xiang/</id>
+        <link href="https://sshuijian.github.io/post/xiao-mi-shou-ji-wan-ji-zhu-yi-shi-xiang/">
+        </link>
+        <updated>2022-01-01T12:18:45.000Z</updated>
+        <content type="html"><![CDATA[<p>第一步解锁bl：<br>
+这玩意要等7天168小时，注意先在开发者选项里绑定账号和设备，这b玩意重复操作会刷新时间倒计时，不要重复操作。<br>
+http://www.miui.com/unlock/download.html<br>
+Miui优化是把双刃剑<br>
+如果各位galxy watch连不上手机，请关闭这个选项。<br>
+如果自由窗口使用不正常，请打开这个优化。<br>
+如果各位有用应用变量，三星健康步数管理刷步的话，关闭它不然三星健康连接不上支付宝。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[类原生网址备份]]></title>
         <id>https://sshuijian.github.io/post/lei-yuan-sheng-wang-zhi-bei-fen/</id>

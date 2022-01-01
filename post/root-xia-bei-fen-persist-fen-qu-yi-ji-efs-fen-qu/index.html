@@ -2,18 +2,17 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>类原生网址备份 | Gridea</title>
+<title>Root下备份Persist分区以及efs分区 | Gridea</title>
 <link rel="shortcut icon" href="https://sshuijian.github.io//favicon.ico?v=1641039679170">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://sshuijian.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="类原生网址备份 | Gridea - Atom Feed" href="https://sshuijian.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="Root下备份Persist分区以及efs分区 | Gridea - Atom Feed" href="https://sshuijian.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="https://felixchn.top/
-类原生集合： https://www.lanzoux.com/b00ntr8jc
-目前收集了60个类原生（真就换个皮又是一个新的rom[表面开心])，由于大部分courseforge上的类原生采用..." />
+    <meta name="description" content="切记，刷机之前先备份这两个分区
+很久之前，我曾写过这篇文章，详细的介绍了安卓手机里Persist分区以及efs分区，同样，指纹传感器数据也包括在此分区，现如今TWRP适配工作在W大退隐以后，基本无后人继承，导致上文中方法已经无效，特别是一加..." />
     <meta name="keywords" content="红米k30p玩机手册" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -92,14 +91,14 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              类原生网址备份
+              Root下备份Persist分区以及efs分区
             </h2>
             <div class="post-info">
               <span>
                 2022-01-01
               </span>
               <span>
-                3 min read
+                2 min read
               </span>
               
                 <a href="https://sshuijian.github.io/tag/9M1789wDq/" class="post-tag">
@@ -110,40 +109,24 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>https://felixchn.top/<br>
-类原生集合： https://www.lanzoux.com/b00ntr8jc<br>
-目前收集了60个类原生（真就换个皮又是一个新的rom[表面开心])，由于大部分courseforge上的类原生采用的都是机型代号，你可以下载一个 http://www.coolapk.com/apk/flar2.devcheck 查看系统那一栏下产品/设备后的就是代号，也可以看@KHwang9883 老哥的github https://github.com/KHwang9883/MobileModels<br>
-opengapps https://opengapps.org/<br>
-bitgapps https://bitgapps.github.io/<br>
-miflash集合 https://www.lanzoux.com/b00ndmiif （2013-2020全部版本）<br>
-9008免授权文件 https://www.lanzoux.com/b00norbkb （不知道能不能用，自测）<br>
-小米9资¶源分享 https://www.lanzoux.com/b00ntr8jc<br>
-或者也可以在动态搜索小米9[流汗滑稽]<br>
-第三方rec（包括twrp，橙狐，shrp, pbrp, 翼龙等）<br>
-https://www.lanzoux.com/b00ntr8jc<br>
-小米机型底包下载 https://xiaomifirmwareupdater.com/firmware/<br>
-小米线刷包卡刷包下载 https://miuiver.com/ 和 https://roms.miuier.com/<br>
-全机型代号 https://github.com/KHwang9883/MobileModels<br>
-anx相机（类原生miui相机）在动态搜anx，官网 https://camera.aeonax.com/<br>
-谷歌相机<br>
-在动态搜索 parrot043或Urnyx05<br>
-阿狗酱的版本 https://www.coolapk.com/feed/18343166?shareKey=ZDg3MGMyMThmZjBhNWYzMzYyYzg~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
-小米9推荐版本 https://www.coolapk.com/feed/19897117?shareKey=OGUxNGVlY2FmMDdjNWYzMzYyZjc~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
-之前写过的图文<br>
-解锁，magisk，rec等等<br>
-https://www.coolapk.com/feed/19753752?shareKey=YzIwN2NmYjQ1ZGNhNWYzMzYzMjg~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
-和<br>
-https://www.coolapk.com/feed/17697847?shareKey=NmNkZjE5YjRhMzlmNWYzMzYzMjg~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
-类原生刷入和日用软件 https://www.coolapk.com/feed/18563280?shareKey=OWFlOTgxMDlhY2QxNWYzMzY0ZDg~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
-oppo a57/a57t玩机图文 https://www.coolapk.com/feed/17934483?shareKey=N2QwYjAwZGMxY2VlNWYzMzYzNTE~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1 （补充一处错误，需要刷aboot文件[捂脸]）<br>
-安卓，windows软件推荐<br>
-https://www.coolapk.com/feed/17831684?shareKey=ZGZjMzY0Y2Q3NGM2NWYzMzYzYWU~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1 和 https://www.coolapk.com/feed/19591549?shareKey=NTk5MDliNDM4NWUxNWYzMzYzYWU~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
-橙狐使用教程 https://www.coolapk.com/feed/19982456?shareKey=MjkwMmQ0NTJjM2I5NWYzMzYzZjA~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
-twrp集合（建议看上面的txt文档）<br>
-https://www.coolapk.com/feed/18596896?shareKey=ZmJkZDAzMDAwMTliNWYzMzY0NzM~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
-太极阴使用教程 https://www.coolapk.com/feed/17953780?shareKey=YmFjZDMyOGE4YzFkNWYzMzY0OGU~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1<br>
-刷入edxp后如何过safetynet（现在还有没有效不清楚） https://www.coolapk.com/feed/18368064?shareKey=OTE3YTE0NTUxNWMzNWYzMzY0OGU~&amp;shareUid=3075032&amp;shareFrom=com.coolapk.market_10.5.1-beta1</p>
-<!-- more -->
+                <p>切记，刷机之前先备份这两个分区<br>
+很久之前，我曾写过这篇文章，详细的介绍了安卓手机里Persist分区以及efs分区，同样，指纹传感器数据也包括在此分区，现如今TWRP适配工作在W大退隐以后，基本无后人继承，导致上文中方法已经无效，特别是一加8/一加8Pro早期机器因为传感器硬件混用，线刷几率丢掉指纹，这得备份下了，注意: 仅仅9008线刷有几率丢，刷MIUI是不会丢的，又因升级安卓11，无TWRP可用，无法按照上文方法备份<br>
+本文详细引导在仅ROOT的情况下完成备份Persist，目前来说，efs分区已经没有必要备份了，不描述ROOT的方法，如果你不ROOT，也没有备份的必要，主要针对一加8/一加8Pro，目前来说，其他机型还没有指纹丢失的案例</p>
+<p>如果你熟悉adb shell，那么你只需要</p>
+<p>su<br>
+dd if=/dev/block/bootdevice/by-name/persist of=/sdcard/persist.img<br>
+#在你的根目录可以找到persist.img</p>
+<p>恢复的话</p>
+<p>su<br>
+dd if=/sdcard/persist.img of=/dev/block/bootdevice/by-name/persist<br>
+#在你的根目录里准备已经备份的persist.img</p>
+<p>https://wwi.lanzous.com/iAUsGn3aw3g</p>
+<p>如果你不熟悉，下载这个小工具（群友分享)<br>
+确保手机与电脑正常链接(可执行adb shell)，建议小白下载个手机助手类软件先连上<br>
+双击提取Persist，按照提示，再按一下回车<br>
+如图显示32M字样为成功，批处理有不确定因素，比如没连接好<br>
+备份文件Persist将会出现在你的根目录，压缩并保存它</p>
+<p>图片</p>
 
               </div>
               <div class="toc-container">
@@ -156,9 +139,9 @@ https://www.coolapk.com/feed/18596896?shareKey=ZmJkZDAzMDAwMTliNWYzMzY0NzM~&amp;
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://sshuijian.github.io/post/markdown-jian-ming-yu-fa-shi-li/">
+            <a href="https://sshuijian.github.io/post/xiao-mi-quan-ji-xing-gu-jian-he-gong-ju-xia-zai-di-zhi/">
               <h3 class="post-title">
-                Markdown简明语法示例
+                小米全机型固件和工具下载地址
               </h3>
             </a>
           </div>
