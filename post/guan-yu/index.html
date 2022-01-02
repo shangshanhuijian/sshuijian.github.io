@@ -1,0 +1,201 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>关于 | sshuijianblog</title>
+<link rel="shortcut icon" href="https://sshuijian.github.io//favicon.ico?v=1641083103911">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://sshuijian.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="关于 | sshuijianblog - Atom Feed" href="https://sshuijian.github.io//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="大家好，我是绘见
+终于能有自己的博客了，那就随心所欲粘贴点东西吧（评论和动态博客暂时有点难度，下次再说）
+你能在以下地方找到我：
+github
+https://github.com/sshuijian
+bilibili
+https://sp..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://sshuijian.github.io/">
+  <img class="avatar" src="https://sshuijian.github.io//images/avatar.png?v=1641083103911" alt="">
+  </a>
+  <h1 class="site-title">
+    sshuijianblog
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="https://sshuijian.github.io/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="https://sshuijian.github.io/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="https://sshuijian.github.io/post/guan-yu" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/sshuijian" target="_blank">
+          <i class="ri-github-line"></i>
+        </a>
+      
+    
+      
+        <a href="https://space.bilibili.com/15174498" target="_blank">
+          <i class="ri-twitter-line"></i>
+        </a>
+      
+    
+      
+        <a href="http://www.weibo.com/u/5600198485" target="_blank">
+          <i class="ri-weibo-line"></i>
+        </a>
+      
+    
+      
+    
+      
+        <a href=" http://music.163.com/m/user/home?id=132697542" target="_blank">
+          <i class="ri-facebook-line"></i>
+        </a>
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              关于
+            </h2>
+            <div class="post-info">
+              <span>
+                2022-01-02
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>大家好，我是绘见<br>
+终于能有自己的博客了，那就随心所欲粘贴点东西吧（评论和动态博客暂时有点难度，下次再说）<br>
+你能在以下地方找到我：<br>
+github<br>
+https://github.com/sshuijian<br>
+bilibili<br>
+https://space.bilibili.com/15174498<br>
+酷安<br>
+http://www.coolapk.com/u/1993354<br>
+微博<br>
+http://www.weibo.com/u/5600198485<br>
+网易云音乐的绘见<br>
+http://music.163.com/m/user/home?id=132697542<br>
+欢迎呐！<br>
+（另没事别找了，咱也是有对象的人hhhh）</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://sshuijian.github.io/post/long-zu-yi-wen-lu-zhui-xu-he-zhen-ming-tian-zi-zhong/">
+              <h3 class="post-title">
+                龙族异闻录·赘婿和真命天子终
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://sshuijian.github.io//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
